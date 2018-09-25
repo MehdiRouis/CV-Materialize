@@ -27,3 +27,15 @@
 .sidenav li.active > a > i.material-icons {
   color:white;
 }
+
+.justify-align {
+  text-align: justify;
+}
+
+.block {
+  height: 100vh;
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
