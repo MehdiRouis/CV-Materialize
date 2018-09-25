@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <title>Curriculum Vitae - Mehdi ROUIS</title>
-  <!--Import Google Icon Font-->
+  <!--Import Icon Fonts-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="./assets/import/materialize/css/materialize.min.css"  media="screen,projection" />
   <!-- Import personnal stylesheet -->
@@ -13,51 +14,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  <div class="preloader-background">
-    <div class="preloader-wrapper big active">
-      <div class="spinner-layer spinner-blue-only">
-        <div class="circle-clipper left">
-          <div class="circle"></div>
-        </div>
-        <div class="gap-patch">
-          <div class="circle"></div>
-        </div>
-        <div class="circle-clipper right">
-          <div class="circle"></div>
+  <header>
+    <div class="preloader-background">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-
-  <nav>
-    <div class="nav-wrapper blue">
-      <a id="open-sidenav" href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i>teest</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background blue">
+    <nav>
+      <div class="nav-wrapper blue">
+        <ul id="nav-mobile" class="right">
+          <li><a id="open-sidenav" href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
+        </ul>
       </div>
-      <a href="#user"><img class="circle" src="./assets/img/MehdiRouis.jpg"></a>
-      <a href="#name"><span class="white-text name">Mehdi ROUIS</span></a>
-      <a href="#email"><span class="white-text email">mehdi.rouis.1@laposte.net</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-  </ul>
+    </nav>
 
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background blue">
+          </div>
+            <a href="#user"><img class="circle" src="./assets/img/MehdiRouis.jpg"></a>
+            <a href="#name"><span class="white-text name">Mehdi ROUIS</span></a>
+            <a href="#email"><span class="white-text email">mehdi.rouis.1@laposte.net</span></a>
+        </div>
+      </li>
+      <li><a class="subheader">Profil</a></li>
+      <li class="active"><a class="waves-effect" href="#!"><i class="material-icons">format_align_justify</i> Mon histoire</a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">forward_30</i> Mon parcours</a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">call_missed_outgoing</i> Mes compétences</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Réseaux sociaux</a></li>
+      <li><a class="waves-effect" href="https://facebook.com/esskafr" target="_blank"><i class="material-icons">link</i> Facebook</a></li>
+      <li><a class="waves-effect" href="https://twitter.com/MehdiRouis" target="_blank"><i class="material-icons">link</i> Twitter</a></li>
+      <li><a class="waves-effect" href="http://discordapp.com/users/232622763565776896" target="_blank"><i class="material-icons">link</i> Discord</a></li>
+      <li><a class="waves-effect" href="mailto:mehdi.rouis.1@laposte.net" target="_blank"><i class="material-icons">link</i> Adresse mail</a></li>
+      <li><a class="waves-effect" href="https://www.linkedin.com/in/mehdi-rouis-53061a170/" target="_blank"><i class="material-icons">link</i> LinkedIn</a></li>
+      <li><a class="waves-effect" href="http://maps.google.fr/maps?f=q&hl=fr&q=49.485960,1.042995" target="_blank"><i class="material-icons">link</i> Adresse</a></li>
+    </ul>
+  </header>
   <div class="container">
-    
+    <div class="col s12 m12">
+      <div class="card horizontal">
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 

@@ -7,6 +7,6 @@ $(document).ready(function() {
       $('.preloader-background').fadeOut('slow');
       $('.preloader-wrapper').fadeOut();
     }, 1000);
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({edge: 'right'});
   });
 });
