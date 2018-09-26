@@ -14,6 +14,7 @@ $(document).ready(function() {
   }, 1000);
   $('.sidenav').sidenav({edge: 'right'});
   $('.scrollspy').scrollSpy({activeClass : ''});
+  $('.parallax').parallax();
 
   $('#b-home').click(function() {
     document.getElementById('b-home').className = 'active';
@@ -26,6 +27,9 @@ $(document).ready(function() {
     document.getElementById('b-story').className = 'active';
     document.getElementById('b-logs').className = '';
     document.getElementById('b-skills').className = '';
+  });
+  $('#gotostory').click(function() {
+    document.getElementById('b-story').click();
   });
   $('#b-logs').click(function() {
     document.getElementById('b-home').className = '';
