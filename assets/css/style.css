@@ -171,3 +171,7 @@
     left: 0;
   }
 }
+
+.ellipsis-text {
+  text-overflow: ellipsis;
+}

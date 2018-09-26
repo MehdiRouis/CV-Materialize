@@ -51,4 +51,21 @@ $(document).ready(function() {
     document.getElementById('b-skills').className = '';
     document.getElementById('b-contact').className = 'active';
   });
+
+  function progressBar(id, value, color) {
+    var circle = new ProgressBar.Bar(id, {
+    strokeWidth: 6,
+    color: color
+    });
+    circle.animate(value);
+  }
+
+  progressBar('#html', 0.8, '#f16528');
+  progressBar('#css', 0.5, '#1c88c7');
+  progressBar('#php', 0.8, '#777bb3');
+  progressBar('#js', 0.4, '#f1bf28');
+  progressBar('#angular', 0.01, '#b53031');
+  progressBar('#symfony', 0.3, '#19171b');
+  progressBar('#slim', 0.4, '#729e3f');
+  progressBar('#bootstrap', 0.4, '#8559d1');
 });
