@@ -21,26 +21,34 @@ $(document).ready(function() {
     document.getElementById('b-story').className = '';
     document.getElementById('b-logs').className = '';
     document.getElementById('b-skills').className = '';
+    document.getElementById('b-contact').className = '';
   });
   $('#b-story').click(function() {
     document.getElementById('b-home').className = '';
     document.getElementById('b-story').className = 'active';
     document.getElementById('b-logs').className = '';
     document.getElementById('b-skills').className = '';
-  });
-  $('#gotostory').click(function() {
-    document.getElementById('b-story').click();
+    document.getElementById('b-contact').className = '';
   });
   $('#b-logs').click(function() {
     document.getElementById('b-home').className = '';
     document.getElementById('b-story').className = '';
     document.getElementById('b-logs').className = 'active';
     document.getElementById('b-skills').className = '';
+    document.getElementById('b-contact').className = '';
   });
   $('#b-skills').click(function() {
     document.getElementById('b-home').className = '';
     document.getElementById('b-story').className = '';
     document.getElementById('b-logs').className = '';
     document.getElementById('b-skills').className = 'active';
+    document.getElementById('b-contact').className = '';
+  });
+  $('#b-contact').click(function() {
+    document.getElementById('b-home').className = '';
+    document.getElementById('b-story').className = '';
+    document.getElementById('b-logs').className = '';
+    document.getElementById('b-skills').className = '';
+    document.getElementById('b-contact').className = 'active';
   });
 });
