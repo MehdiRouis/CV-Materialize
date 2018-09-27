@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eee;
+  background-color: #3e3e3e;
 
   position: fixed;
   z-index: 100;
@@ -174,4 +174,39 @@
 
 .ellipsis-text {
   text-overflow: ellipsis;
+}
+
+.flow-text-10 {
+  font-size:1.1rem;
+}
+
+.flow-text-20 {
+  font-size:1.2rem;
+}
+
+.flow-text-30 {
+  font-size:1.3rem;
+}
+
+.flow-text-80 {
+  font-size:1.8rem;
+}
+.flow-text-100 {
+  font-size:2rem;
+}
+
+.grey-dark {
+  background-color: #3e3e3e;
+}
+
+.grey-dark-text {
+  color: #3e3e3e;
+}
+
+.spinner-white {
+  border-color:#fff;
+}
+
+.light-grey {
+  background-color: #adadad;
 }

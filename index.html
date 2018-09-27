@@ -10,18 +10,18 @@
   <!-- Import Progress Wizard -->
   <link href="./assets/import/progress-wizard/progress-wizard.min.css" rel="stylesheet" type="text/css" />
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="./assets/import/materialize/css/materialize.min.css"  media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="./assets/import/materialize/css/materialize.min.css"  media="screen" />
   <!-- Import personnal stylesheet -->
   <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body class="blue lighten-4">
-  <div class="block blue">
+<body class="light-grey">
+  <div class="block  grey-dark">
     <header>
       <div class="preloader-background">
         <div class="preloader-wrapper big active">
-          <div class="spinner-layer spinner-blue-only">
+          <div class="spinner-layer spinner-white">
             <div class="circle-clipper left">
               <div class="circle"></div>
             </div>
@@ -36,7 +36,7 @@
       </div>
       <div class="navbar-fixed">
         <nav>
-          <div class="nav-wrapper blue">
+          <div class="nav-wrapper grey-dark">
             <ul id="nav-mobile" class="right">
               <li><a id="open-sidenav" href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
             </ul>
@@ -46,9 +46,9 @@
       <ul id="slide-out" class="sidenav">
         <li>
           <div class="user-view">
-            <div class="background blue">
+            <div class="background  grey-dark">
             </div>
-            <a href="#"><img class="circle" src="./assets/img/MehdiRouis.jpg"></a>
+            <a href="#"><img ondrag="return false;" class="circle" src="./assets/img/MehdiRouis.jpg" alt="ImageProfileMehdiRouis"></a>
             <a href="#"><span class="white-text name">Mehdi ROUIS</span></a>
             <a href="#"><span class="white-text email">mehdi.rouis.1@laposte.net</span></a>
           </div>
@@ -62,7 +62,7 @@
       </ul>
     </header>
 
-    <a id="morebutton" data-target="slide-out" class="sidenav-trigger align-content center-bottom-pos btn-floating btn-large waves-effect waves-light blue lighteen-4" href="#"><i class="material-icons">arrow_drop_down_circle</i></a>
+    <a id="morebutton" data-target="slide-out" class="sidenav-trigger align-content center-bottom-pos btn-floating btn-large waves-effect waves-light  grey-dark lighteen-4" href="#"><i class="material-icons">arrow_drop_down_circle</i></a>
     <div class="container">
       <div id="home" class="section scrollspy">
         <div class="userimage align-content col s2 m4 l12">
@@ -78,7 +78,7 @@
         <div class="card horizontal z-depth-5">
           <div class="card-stacked">
             <div class="card-action center-align">
-              <h2>Mon histoire</h2>
+              <h2 class="flow-text-100">Mon histoire</h2>
             </div>
             <div class="card-action"></div>
             <div class="card-content justify-align">
@@ -90,7 +90,7 @@
     </div>
   </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="./assets/img/parallax1.jpg" /></div>
+    <div class="parallax"><img src="./assets/img/parallax1.jpg" alt="FondParallax" /></div>
   </div>
   <div id="logs" class="section scrollspy">
     <div class="container">
@@ -98,7 +98,7 @@
         <div class="card horizontal z-depth-5">
           <div class="card-stacked">
             <div class="card-action center-align">
-              <h2>Mon parcours</h2>
+              <h2 class="flow-text-100">Mon parcours</h2>
             </div>
             <div class="card-action"></div>
             <div class="card-content">
@@ -106,41 +106,38 @@
                 <div class="timeline-event">
                   <div class="card timeline-content">
                     <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">2018 - Formation La Manu<i class="material-icons right">more_vert</i></span>
-                      <p>Cliquez sur le titre pour plus d'informations...</p>
+                      <span class="card-title activator grey-text text-darken-4 flow-text-30">2019<span class="hide-on-small-only"> - Formation La Manu</span><i class="material-icons right">more_vert</i></span>
                     </div>
                     <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Formation La Manu<i class="material-icons right">close</i></span>
-                      <p>Cette formation porte sur le développement web. Elle permet d'être intégrateur web, développeur full-stack junior ainsi que développeur back-end junior.</p>
+                      <span class="card-title grey-text text-darken-4 flow-text-30">Formation La Manu<i class="material-icons right">close</i></span>
+                      <p class="flow-text-10">Cette formation porte sur le développement web. Elle permet d'être intégrateur web, développeur full-stack junior ainsi que développeur back-end junior.</p>
                     </div>
                   </div>
-                  <div class="timeline-badge blue white-text"><i class="material-icons">devices</i></div>
+                  <div class="timeline-badge  grey white-text"><i class="material-icons">devices</i></div>
                 </div>
                 <div class="timeline-event">
                   <div class="card timeline-content">
                     <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">2018 - Baccalauréat professionnel<i class="material-icons right">more_vert</i></span>
-                      <p>Cliquez sur le titre pour plus d'informations...</p>
+                      <span class="card-title activator grey-text text-darken-4 flow-text-30">2018<span class="hide-on-small-only"> - Baccalauréat Professionnel</span><i class="material-icons right">more_vert</i></span>
                     </div>
                     <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Baccalauréat professionnel<i class="material-icons right">close</i></span>
-                      <p>Ce baccalauréat a été obtenu dans le domaine des systèmes éléctroniques et numériques au lycée Marcel Sembat (Sotteville-lès-Rouen). J'ai obtenu ce baccalauréat avec mention assez bien.</p>
+                      <span class="card-title grey-text text-darken-4 flow-text-30">Baccalauréat professionnel<i class="material-icons right">close</i></span>
+                      <p class="flow-text-10">Ce baccalauréat a été obtenu dans le domaine des systèmes éléctroniques et numériques au lycée Marcel Sembat (Sotteville-lès-Rouen). J'ai obtenu ce baccalauréat avec mention assez bien.</p>
                     </div>
                   </div>
-                  <div class="timeline-badge red white-text"><i class="material-icons">work</i></div>
+                  <div class="timeline-badge grey white-text"><i class="material-icons">work</i></div>
                 </div>
                 <div class="timeline-event">
                   <div class="card timeline-content">
                     <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">2017 - Brevet d'études professionnelles<i class="material-icons right">more_vert</i></span>
-                      <p>Cliquez sur le titre pour plus d'informations...</p>
+                      <span class="card-title activator grey-text text-darken-4 flow-text-80">2017<span class="hide-on-small-only"> - B.E.P</span><i class="material-icons right">more_vert</i></span>
                     </div>
                     <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">B.E.P<i class="material-icons right">close</i></span>
-                      <p>Ce B.E.P a été obtenu dans le domaine des systèmes éléctroniques et numériques au lycée Marcel Sembat (Sotteville-lès-Rouen). Je l'ai obtenu sans mention.</p>
+                      <span class="card-title grey-text text-darken-4 flow-text-80">B.E.P<i class="material-icons right">close</i></span>
+                      <p class="flow-text-10">Ce B.E.P a été obtenu dans le domaine des systèmes éléctroniques et numériques au lycée Marcel Sembat (Sotteville-lès-Rouen). Je l'ai obtenu sans mention.</p>
                     </div>
                   </div>
-                  <div class="timeline-badge green white-text"><i class="material-icons">work</i></div>
+                  <div class="timeline-badge grey white-text"><i class="material-icons">work</i></div>
                 </div>
               </div>
             </div>
@@ -150,7 +147,7 @@
     </div>
   </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="./assets/img/parallax2.png" /></div>
+    <div class="parallax"><img src="./assets/img/parallax2.png" alt="FondParallax2" /></div>
   </div>
   <div id="skills" class="section scrollspy">
     <div class="container">
@@ -158,23 +155,22 @@
         <div class="card horizontal z-depth-5">
           <div class="card-stacked">
             <div class="card-action center-align">
-              <h2>Mes compétences</h2>
+              <h2 class="flow-text-100">Mes compétences</h2>
             </div>
             <div class="card-action"></div>
             <div class="card-content justify-align">
               <div class="row">
-                <div class="col s10 m6 l6">
+                <div class="col s12 m6 l6">
                   <div class="card horizontal z-depth-5">
                     <div class="card-stacked">
                       <div class="card-action center-align ellipsis-text">
-                        <h2>Front</h2>
+                        <h2 class="flow-text-100">Front</h2>
                       </div>
                       <div class="card-action"></div>
                       <div class="card-content">
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">HTML5</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -189,10 +185,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">HTML5</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">CSS3</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -207,22 +203,22 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">CSS3</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col s10 m6 l6">
+                <div class="col s12 m6 l6">
                   <div class="card horizontal z-depth-5">
                     <div class="card-stacked">
                       <div class="card-action center-align ellipsis-text">
-                        <h2>Back</h2>
+                        <h2 class="flow-text-100">Back</h2>
                       </div>
                       <div class="card-action"></div>
                       <div class="card-content">
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">PHP</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -237,10 +233,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">PHP</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">JS</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -255,22 +251,22 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">JS</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col s10 m12 l12">
+                <div class="col s12 m12 l12">
                   <div class="card horizontal z-depth-5">
                     <div class="card-stacked">
                       <div class="card-action center-align ellipsis-text">
-                        <h2>Frameworks</h2>
+                        <h2 class="flow-text-100">Frameworks</h2>
                       </div>
                       <div class="card-action"></div>
                       <div class="card-content">
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Slim</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -285,10 +281,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Slim</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Symfony</p>
                           </li>
                           <li>
                             <span class="bubble"></span>
@@ -303,10 +299,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Symfony</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Laravel</p>
                           </li>
                           <li>
                             <span class="bubble"></span>
@@ -321,10 +317,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Laravel</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Bootstrap 4</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -339,10 +335,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Bootstrap 4</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Materialize</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -357,10 +353,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Materialize</p>
                         <ul class="progress-indicator">
                           <li>
                             <span class="bubble"></span>
-                            <p class="blue-text">AngularJS</p>
                           </li>
                           <li>
                             <span class="bubble"></span>
@@ -375,10 +371,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">AngularJS</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">NodeJS</p>
                           </li>
                           <li>
                             <span class="bubble"></span>
@@ -393,22 +389,22 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">NodeJS</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col s10 m12 l12">
+                <div class="col s12 m12 l12">
                   <div class="card horizontal z-depth-5">
                     <div class="card-stacked">
                       <div class="card-action center-align ellipsis-text">
-                        <h2>Logiciels</h2>
+                        <h2 class="flow-text-100">Logiciels</h2>
                       </div>
                       <div class="card-action"></div>
                       <div class="card-content">
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">PHPStorm</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -423,10 +419,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">PHPStorm</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Atom</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -441,10 +437,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Atom</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Sublime_Text</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -459,10 +455,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Sublime_Text</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Terminal</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -477,10 +473,10 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Terminal</p>
                         <ul class="progress-indicator">
                           <li class="completed">
                             <span class="bubble"></span>
-                            <p class="blue-text">Git</p>
                           </li>
                           <li class="completed">
                             <span class="bubble"></span>
@@ -495,6 +491,7 @@
                             <span class="bubble"></span>
                           </li>
                         </ul>
+                        <p class="grey-dark-text flow-text-30">Git</p>
                       </div>
                     </div>
                   </div>
@@ -507,44 +504,44 @@
     </div>
   </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="./assets/img/parallax3.jpg" /></div>
+    <div class="parallax"><img src="./assets/img/parallax3.jpg" alt="FondParallax3" /></div>
   </div>
 
 
-  <footer id="contact" class="page-footer blue section scrollspy">
+  <footer id="contact" class="page-footer grey-dark section scrollspy">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h3 class="white-text">Me contacter</h5>
-            <p class="grey-text text-lighten-4">Utilisez le réseau de votre choix.</p>
-            <h3 class="white-text">Mon adresse</h3>
-            <p><a class="grey-text text-lighten-3" href="http://maps.google.fr/maps?f=q&hl=fr&q=49.485960,1.042995">31 rue Ferdinand Cartier, Notre-Dame-De-Bondeville, 76960, France</a></p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h3 class="white-text">Liens:</h5>
-              <ul>
-                <li><i class="fab fa-facebook-f"></i> <a class="grey-text text-lighten-3" href="https://facebook.com/esskafr">Mehdi ROUIS</a></li>
-                <li><i class="fab fa-twitter"></i> <a class="grey-text text-lighten-3" href="https://twitter.com/MehdiRouis">@MehdiRouis</a></li>
-                <li><i class="fab fa-discord"></i> <a class="grey-text text-lighten-3" href="http://discordapp.com/users/232622763565776896">@MehdiR (Èsska)#2616</a></li>
-                <li><i class="fas fa-at"></i> <a class="grey-text text-lighten-3" href="mailto:mehdi.rouis.1@laposte.net">mehdi.rouis.1@laposte.net</a></li>
-                <li><i class="fab fa-linkedin-in"></i> <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/mehdi-rouis-53061a170/">Mehdi ROUIS</a></li>
-              </ul>
-            </div>
-          </div>
+          <h3 class="white-text">Me contacter</h3>
+          <p class="grey-text text-lighten-4">Utilisez le réseau de votre choix.</p>
+          <h3 class="white-text">Mon adresse</h3>
+          <p><a class="grey-text text-lighten-3" href="http://maps.google.fr/maps?f=q&hl=fr&q=49.485960,1.042995">31 rue Ferdinand Cartier, Notre-Dame-De-Bondeville, 76960, France</a></p>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-            2018 - Made by Esska (ROUIS Mehdi) with <i class="fas fa-heart"></i>.
-          </div>
+        <div class="col l4 offset-l2 s12">
+          <h3 class="white-text">Liens:</h3>
+          <ul>
+            <li><i class="fab fa-facebook-f"></i> <a class="grey-text text-lighten-3" href="https://facebook.com/esskafr">Mehdi ROUIS</a></li>
+            <li><i class="fab fa-twitter"></i> <a class="grey-text text-lighten-3" href="https://twitter.com/MehdiRouis">@MehdiRouis</a></li>
+            <li><i class="fab fa-discord"></i> <a class="grey-text text-lighten-3" href="http://discordapp.com/users/232622763565776896">@MehdiR (Èsska)#2616</a></li>
+            <li><i class="fas fa-at"></i> <a class="grey-text text-lighten-3" href="mailto:mehdi.rouis.1@laposte.net">mehdi.rouis.1@laposte.net</a></li>
+            <li><i class="fab fa-linkedin-in"></i> <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/mehdi-rouis-53061a170/">Mehdi ROUIS</a></li>
+          </ul>
         </div>
-      </footer>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        2018 - Made by Esska (ROUIS Mehdi) with <i class="fas fa-heart"></i>.
+      </div>
+    </div>
+  </footer>
 
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="./assets/import/jquery/jquery-3.1.1.min.js"></script>
-      <script type="text/javascript" src="./assets/import/materialize/js/materialize.min.js"></script>
-      <script type="text/javascript" src="./assets/import/progressbar/progressbar.js"></script>
-      <script type="text/javascript" src="./assets/js/step-by-step.js"></script>
-      <script type="text/javascript" src="./assets/js/index.js"></script>
-    </body>
-    </html>
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="./assets/import/jquery/jquery-3.1.1.min.js"></script>
+  <script src="./assets/import/materialize/js/materialize.min.js"></script>
+  <script src="./assets/import/progressbar/progressbar.js"></script>
+  <script src="./assets/js/step-by-step.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>

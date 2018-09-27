@@ -79,7 +79,7 @@
 .progress-indicator>li.completed .bubble,
 .progress-indicator>li.completed .bubble:after,
 .progress-indicator>li.completed .bubble:before {
-	background-color: #2196F3;
+	background-color: #3e3e3e;
 	border-color: #247830
 }
 
