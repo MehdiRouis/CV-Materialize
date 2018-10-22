@@ -23,7 +23,7 @@
              *     "letterSpacing" : "0.15em",
              *     "interval" : 100
              */
-( function( $ ){
+(function(){
   $.fn.dvjhEcrit = function( options ){
     var opts = $.extend( true, {}, $.fn.dvjhEcrit.defaults, options );
 
@@ -72,4 +72,4 @@
     "letterSpacing" : "0.15em",
     "interval" : 100,
   };
-})(jQuery);
+});
