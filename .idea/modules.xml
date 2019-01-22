@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AliveWebProject/.idea/AliveWebProject.iml" filepath="$PROJECT_DIR$/../AliveWebProject/.idea/AliveWebProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CV-Materialize.iml" filepath="$PROJECT_DIR$/.idea/CV-Materialize.iml" />
     </modules>
   </component>

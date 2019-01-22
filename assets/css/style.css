@@ -1,3 +1,7 @@
+body {
+  scroll-behavior : smooth;
+}
+
 .preloader-background {
   display: flex;
   align-items: center;

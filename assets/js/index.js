@@ -51,4 +51,10 @@ $(document).ready(function() {
     document.getElementById('b-skills').className = '';
     document.getElementById('b-contact').className = 'active';
   });
+
+  $('#slide-out > li, #morebutton').on('click', function () {
+    setTimeout(function () {
+      window.scrollBy(0, -64);
+    }, 500);
+  });
 });
